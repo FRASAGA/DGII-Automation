@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Funcionalidad de Login",
+    "elements": [
+      {
+        "name": "Login con credenciales válidas",
+        "steps": [
+          {"name": "el usuario navega al login", "result": {"status": "passed"}},
+          {"name": "ingresa usuario y contraseña válidos", "result": {"status": "passed"}},
+          {"name": "hace clic en Login", "result": {"status": "passed"}},
+          {"name": "debería ver el mensaje "You logged into a secure area!"", "result": {"status": "passed"}},
+          {"name": "cierra sesión", "result": {"status": "passed"}}
+        ]
+      },
+      {
+        "name": "Login con credenciales no válidas",
+        "steps": [
+          {"name": "el usuario navega al login", "result": {"status": "passed"}},
+          {"name": "ingresa usuario y contraseña inválidos", "result": {"status": "passed"}},
+          {"name": "hace clic en Login", "result": {"status": "passed"}},
+          {"name": "debería ver el mensaje de error "Your username is invalid!"", "result": {"status": "passed"}}
+        ]
+      },
+      {
+        "name": "Login sin ingresar usuario",
+        "steps": [
+          {"name": "el usuario navega al login", "result": {"status": "passed"}},
+          {"name": "ingresa solo la contraseña", "result": {"status": "passed"}},
+          {"name": "hace clic en Login", "result": {"status": "passed"}},
+          {"name": "debería ver el mensaje de error "Your username is invalid!"", "result": {"status": "passed"}}
+        ]
+      }
+    ]
+  }
+]
