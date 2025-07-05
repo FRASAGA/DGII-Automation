@@ -19,5 +19,5 @@ Automatización de pruebas de login para la DGII usando Cypress con Cucumber.
 npm install
 npx cypress open
 ```
-# Ver reporte
+#Para ver reporte
 Abrir `cypress/reports/cucumber_report.html` en el navegador para visualizar.
