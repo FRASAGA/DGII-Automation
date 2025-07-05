@@ -15,7 +15,7 @@ Automatización de pruebas de login para la DGII usando Cypress con Cucumber.
 - `cypress/reports`: Reportes visuales
 
 # Instalacion y Ejecucion
-```bash
+``bash
 npm install
 npx cypress open
 ```
