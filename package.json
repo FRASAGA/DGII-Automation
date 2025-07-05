@@ -1,0 +1,16 @@
+{
+  "name": "cypress-bdd-dgii-login-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cypress run",
+    "cucumber:report": "node cucumber-html-report.js"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^12.17.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "esbuild": "^0.25.5"
+  }
+}
