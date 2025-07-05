@@ -1,4 +1,4 @@
-Feature: Funcionalidad de Login
+Feature: Escenarios de Login
 
   Scenario: Login con credenciales válidas
     Given el usuario navega al login
